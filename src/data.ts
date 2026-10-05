@@ -75,7 +75,7 @@ export const projects: Project[] = [
     year: "2025",
     category: "Residential",
     area: "610 m²",
-    image: u("1600566753086-5fbf14a0d4d3"),
+    image: u("1616486338812-3dadae4b4ace"),
     blurb:
       "Sea air, pale oak, and a kitchen designed as daily ceremony. Sliding screens temper Red Sea light without closing the horizon.",
   },
@@ -97,7 +97,7 @@ export const projects: Project[] = [
     year: "2025",
     category: "Hospitality",
     area: "Lobby + 42 keys",
-    image: u("1566073771259-6a850609517f"),
+    image: u("1578683010236-d716f9a3f461"),
     blurb:
       "Arrival as a living room: travertine floors, low seating, and a champagne-metal desk that catches late afternoon sun. Guests linger before they check in.",
   },
@@ -119,7 +119,7 @@ export const projects: Project[] = [
     year: "2023",
     category: "Hospitality",
     area: "1,100 m²",
-    image: u("1540553016722-983e48a2cd10"),
+    image: u("1582719478250-c89cae4dc85b"),
     blurb:
       "Mud-brick memory translated into cool plaster, water courts, and treatment rooms that smell of frankincense and fresh linen.",
   },
