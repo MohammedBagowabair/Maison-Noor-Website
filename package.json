@@ -1,0 +1,27 @@
+{
+  "name": "maison-noor-website",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "cross-env BASE_PATH=/Maison-Noor-Website/ vite build && node scripts/spa-404.js",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.4.1",
+    "cross-env": "^7.0.3",
+    "gh-pages": "^6.3.0",
+    "playwright-core": "^1.55.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  }
+}
